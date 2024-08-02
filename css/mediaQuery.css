@@ -1,0 +1,116 @@
+@media (max-width: 480px) {
+    h2{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 19px;
+    }
+
+    .nav-link li{
+        font-size: 10px;
+        margin: 5px 4px 0px 6px;
+    }
+
+    .nav-link ul{
+    margin-right: 0;
+    }
+
+    .center{
+        display: none;
+    }
+
+    footer{
+        font-size: 12px;
+    }
+
+    footer svg{
+        width: 15px;
+        height: 15px;
+    }
+
+    .card{
+        display: block;
+        width: 95%;
+    }
+    .intro {
+        width: 100%;
+        border-right: none;
+        box-sizing: border-box;
+        padding: 17 21px 17px 21px;
+
+    }
+
+    .photo{
+        bottom: 0;
+        left: 25%;
+        position: absolute;
+    }
+    .photo img{
+        border-radius: 0;
+        width: 122%;
+    }
+
+    main{
+        display: grid;
+        position: inherit;
+    }
+
+    .contact-info{
+        margin-top: 15px;
+        margin-bottom: 35px;
+        width: 100%;
+    }
+    .contact-info h2{
+        font-size: 15px;
+    }
+    .contact-input{
+        width:100%;
+    }
+
+    .p-main{
+        height: auto;
+    }
+
+    .a-main {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #skills-content{
+        width: 100%;
+    }
+
+    #edu-content{
+        width: 100%;
+    }
+
+    #exp-content{
+        width: 100%;
+    }
+
+    .a-container {
+        flex-flow: column;
+    }
+
+    .about{
+        display: grid;
+    }
+
+    .part1{
+        width: 100%;
+    }
+
+    .know{
+        order: -1;
+    }
+
+    .part2{
+        margin-top: 0;
+    }
+
+    .part2 img{
+        width: 100%;
+    }
+
+
+}
